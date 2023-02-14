@@ -51,7 +51,7 @@ def gradient_boosting(X_train, y_train):
     params = {
         'n_estimators' : [50, 100, 150, 200],
         'learning_rate' : [0.01, 0.05, 0.1, 0.5, 1],
-        'max_features' : [5, 10, 20, 30, 40]
+        'max_features' : [5, 10, 20, 30, 40, 50, 100, len(X_train.columns)],
     }
     grid = GridSearchCV(estimator=gb_clf,
                     param_grid=params,
@@ -83,7 +83,7 @@ def random_forest(X_train, y_train):
     rf_clf = RandomForestClassifier(random_state=0)
     params = {
         'n_estimators' : [50, 100, 150, 200],
-        'max_features' : [3, 5, 10, 20, 30, 40],
+        'max_features' :  [5, 10, 20, 30, 40, 50, 100, len(X_train.columns)],
         'max_depth': [5, 10, 20, 30],
         'min_samples_leaf' : [1, 3, 5]
     }
@@ -118,7 +118,8 @@ def ada_boost(X_train, y_train):
     ada_clf = AdaBoostClassifier(random_state=0)
     params = {
         'n_estimators' : [50, 100, 150, 200],
-        'learning_rate' : [0.01, 0.05, 0.1, 0.5, 1]
+        'learning_rate' :  [0.01, 0.05, 0.1, 0.5, 1],
+        'max_features' : [5, 10, 20, 30, 40, 50, 100, len(X_train.columns)],
     }
     grid = GridSearchCV(estimator=ada_clf,
                     param_grid=params,
