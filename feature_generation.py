@@ -114,4 +114,4 @@ if __name__ == '__main__':
     label = feature_df["sense"]
     label.to_csv("./features/label_option_%s.csv"%OPTION, index=False)
     feature_df.drop("sense", axis=1, inplace=True)
-    feature_df.to_csv("./features/feature_%s.csv"%OPTION, index=False)
+    feature_df.to_csv("./features/feature_option_%s.csv"%OPTION, index=False)
