@@ -1,0 +1,370 @@
+Abbreviation: CVA
+Standard deviation of senses: 39.59797974644666
+Number of expansions: 2
+Expansions: {'costovertebral angle': 222, 'cerebrovascular accident': 278}
+
+Abbreviation: MP
+Standard deviation of senses: 55.57590591867413
+Number of expansions: 14
+Expansions: {'mercaptopurine': 107, '(device) MP': 5, 'metatarsophalangeal/metacarpophalangeal': 105, 'metacarpophalangeal': 179, 'metatarsophalangeal': 55, 'metabolic panel': 12, 'nurse practitioner:NP': 11, 'metarsophalangeal': 6, 'menstrual period': 1, 'UNSURED SENSE': 11, 'military police': 4, 'milligram:mg': 1, '(drug) MP': 2, 'mesangial proliferative': 1}
+
+Abbreviation: IT
+Standard deviation of senses: 65.99494930169531
+Number of expansions: 12
+Expansions: {'information technology': 103, 'intertrochanteric': 14, 'intrathecal': 58, 'UNSURED SENSE': 6, 'GENERAL ENGLISH': 225, 'ischial tuberosity': 48, '(drug) IT': 2, 'iliotibial': 40, 'pravastatin or atorvastatin evaluation and infection therapy': 1, 'inspiratory time': 1, 'immature-to-total neutrophil': 1, 'idiopathic thrombocytopenic purpura:ITP': 1}
+
+Abbreviation: AC
+Standard deviation of senses: 66.30137801941018
+Number of expansions: 11
+Expansions: {'(drug) AC': 161, 'acromioclavicular': 158, 'adriamycin cyclophosphamide': 118, 'assist control': 9, 'before meals': 42, 'acetate': 4, 'abdominal circumference': 2, 'alternating current': 1, 'angiotensin-converting enzyme:ACE': 3, 'anticoagulation': 1, 'antecubital': 1}
+
+Abbreviation: VBG
+Standard deviation of senses: 69.29646455628166
+Number of expansions: 2
+Expansions: {'vertical banded gastroplasty': 299, 'venous blood gas': 201}
+
+Abbreviation: PA
+Standard deviation of senses: 78.70196947980399
+Number of expansions: 8
+Expansions: {'posterior-anterior': 212, 'physician assistant': 61, 'pulmonary artery': 138, 'physician associates': 83, 'UNSURED SENSE': 2, 'pulmonary auscultation': 1, 'pulmonary embolus:PE': 1, 'tissue plasminogen activator:TPA': 2}
+
+Abbreviation: PAC
+Standard deviation of senses: 89.628864398325
+Number of expansions: 10
+Expansions: {'physician assistant certification': 137, 'premature atrial contraction': 275, 'post anesthesia care': 47, 'UNSURED SENSE': 4, 'picture archiving communication': 25, 'patient-controlled analgesia:PCA': 7, '(drug) PAC': 2, 'prostate-specific antigen:PSA': 1, 'pulmonary arterial concentration': 1, 'pulmonary artery catheter': 1}
+
+Abbreviation: T2
+Standard deviation of senses: 93.83648391902648
+Number of expansions: 7
+Expansions: {'tumor stage 2': 166, 'T2 (MRI)': 227, 'UNSURED SENSE': 7, 'thoracic (level) 2': 97, 'term 2': 1, 'T2 Nodes': 1, 'S2 (heart sound):S2': 1}
+
+Abbreviation: T1
+Standard deviation of senses: 95.70092301888559
+Number of expansions: 6
+Expansions: {'tumor stage 1': 198, 'thoracic (level) 1': 194, 'UNSURED SENSE': 3, 'T1 (MRI)': 103, 'term 1': 1, 'type 1 (diabetes mellitus)': 1}
+
+Abbreviation: PR
+Standard deviation of senses: 96.24596466494434
+Number of expansions: 7
+Expansions: {'pulmonary regurgitation': 12, 'per rectum': 141, 'progesterone receptor': 88, 'pr interval': 252, 'UNSURED SENSE': 4, '(drug) PR': 2, 'pulse rate': 1}
+
+Abbreviation: IA
+Standard deviation of senses: 99.61439543448417
+Number of expansions: 9
+Expansions: {'intraarterial': 176, '(stage) IA': 275, 'Iowa': 19, '(grade) IA': 11, '(type) IA': 5, '(status) IA': 5, 'UNSURED SENSE': 4, '(class) IA': 3, 'transient ischemic attack:TIA': 2}
+
+Abbreviation: DC
+Standard deviation of senses: 102.33279044372826
+Number of expansions: 8
+Expansions: {'direct current': 152, 'discharge': 31, 'discontinue': 282, 'District of Columbia': 31, '(diltiazem) DC': 1, 'deceased donor:DD': 1, 'direct and consensual': 1, '(drug) DC': 1}
+
+Abbreviation: AB
+Standard deviation of senses: 103.14890677897158
+Number of expansions: 12
+Expansions: {'abortion': 345, 'ankle-brachial': 1, 'blood group in ABO system': 137, 'type A, type B': 8, 'arteriovenous:AV': 1, 'X-ray finding': 1, 'MISTAKE:abduction': 1, 'antipyrine benzocaine': 1, 'atrioventricular:AV': 2, 'arterial blood': 1, 'UNSURED SENSE': 1, 'NAME': 1}
+
+Abbreviation: MS
+Standard deviation of senses: 103.1309846748299
+Number of expansions: 10
+Expansions: {'multiple sclerosis': 207, 'morphine sulfate': 279, 'musculoskeletal': 2, 'UNSURED SENSE': 4, 'medical student': 1, 'master of science': 3, '(drug) MS': 1, 'mitral stenosis': 1, 'GENERAL ENGLISH': 1, 'NAME': 1}
+
+Abbreviation: PD
+Standard deviation of senses: 104.27139497256096
+Number of expansions: 15
+Expansions: {'peritoneal dialysis': 409, 'police department': 14, 'pancreatic duct': 8, 'posterior descending': 34, 'patent ductus': 1, 'phosphate dehydrogenase': 9, '(device) PD': 6, 'UNSURED SENSE': 6, '(drug) PD': 3, 'dorsalis pedis:DP': 1, 'Parkinson disease': 1, 'pulmonary embolus:PE': 3, 'personality disorder': 1, 'prism diopter': 3, 'purified protein derivative:PPD': 1}
+
+Abbreviation: OP
+Standard deviation of senses: 107.80405505227661
+Number of expansions: 8
+Expansions: {'oblique presentation/occiput posterior': 121, 'oropharynx': 308, 'operative': 55, 'occiput posterior': 3, 'ophthalmic': 5, 'UNSURED SENSE': 6, 'ova and parasites': 1, 'outpatient': 1}
+
+Abbreviation: T3
+Standard deviation of senses: 108.40971666168429
+Number of expansions: 6
+Expansions: {'thoracic (level) 3': 65, 'triiodothyronine': 268, 'tumor stage 3': 156, 'UNSURED SENSE': 5, 'term 3': 2, 'T3 (ECG pattern)': 4}
+
+Abbreviation: ET
+Standard deviation of senses: 114.83652977789154
+Number of expansions: 8
+Expansions: {'enterostomal therapy': 289, 'endotracheal': 200, 'elective termination': 1, 'electrophysiology:EP': 6, 'UNSURED SENSE': 1, 'enterocutaneous:EC': 1, 'electroconvulsive therapy:ECT': 1, 'pressure equalization:PE': 1}
+
+Abbreviation: LE
+Standard deviation of senses: 116.8761215038289
+Number of expansions: 9
+Expansions: {'leukocyte esterase': 345, 'lower extremity': 134, 'UNSURED SENSE': 5, 'left ventricle:LV': 5, 'NAME': 2, 'lupus erythematosus': 3, 'lymphedema': 3, 'long-acting:LA': 2, 'sinemet-levodopa': 1}
+
+Abbreviation: DT
+Standard deviation of senses: 118.83481933219021
+Number of expansions: 8
+Expansions: {'diphtheria-tetanus': 336, 'delirium tremens': 129, 'dorsalis pedis:DP': 23, '(drug) DT': 3, 'UNSURED SENSE': 4, 'deep vein thrombosis:DVT': 3, 'physical therapy:PT': 1, 'doppler echo:DE': 1}
+
+Abbreviation: PCP
+Standard deviation of senses: 119.7998330549755
+Number of expansions: 5
+Expansions: {'primary care physician': 111, 'phencyclidine': 93, 'Pneumocystis jiroveci pneumonia': 294, 'patient-controlled analgesia:PCA': 1, 'UNSURED SENSE': 1}
+
+Abbreviation: RT
+Standard deviation of senses: 121.83712781531626
+Number of expansions: 8
+Expansions: {'respiratory therapy': 149, 'radiation therapy': 336, 'retrograde tachycardia': 7, 'respiratory therapist': 2, 'UNSURED SENSE': 2, 'NAME': 2, 'right': 1, '(drug) RT': 1}
+
+Abbreviation: SA
+Standard deviation of senses: 129.00166111887307
+Number of expansions: 8
+Expansions: {'slow acting/sustained action': 373, 'sinuatrial': 88, 'UNSURED SENSE': 29, 'methicillin-susceptible Staphylococcus aureus:MSSA': 1, 'sinus arrest': 2, 'saturation': 4, 'American Society of Anesthesiologists:ASA': 1, 'MISTAKE:Oncotype DX': 2}
+
+Abbreviation: BK
+Standard deviation of senses: 131.52186130069785
+Number of expansions: 2
+Expansions: {'BK (virus)': 343, 'below knee': 157}
+
+Abbreviation: MR
+Standard deviation of senses: 132.6207625776095
+Number of expansions: 6
+Expansions: {'magnetic resonance': 314, 'mitral regurgitation': 176, 'GENERAL ENGLISH': 5, 'medical record': 1, 'mental retardation': 3, 'myocardial infarction:MI': 1}
+
+Abbreviation: C4
+Standard deviation of senses: 133.71611720357424
+Number of expansions: 5
+Expansions: {'cervical (level) 4': 261, '(complement) component 4': 231, 'fourth heart sound:S4': 1, '(PO Box) C4': 1, 'cluster of differentiation 4:CD4': 6}
+
+Abbreviation: SMA
+Standard deviation of senses: 136.4927348493929
+Number of expansions: 6
+Expansions: {'superior mesenteric artery': 353, 'smooth muscle actin': 2, 'sequential multiple autoanalyzer': 84, 'UNSURED SENSE': 2, 'spinal muscular atrophy': 56, 'smooth muscle antibody': 3}
+
+Abbreviation: DM
+Standard deviation of senses: 137.37539808859518
+Number of expansions: 5
+Expansions: {'dextromethorphan': 286, 'diabetes mellitus': 209, 'UNSURED SENSE': 3, 'medical doctor:MD': 1, 'NAME': 1}
+
+Abbreviation: C3
+Standard deviation of senses: 139.7497763862254
+Number of expansions: 4
+Expansions: {'cervical (level) 3': 249, '(complement) component 3': 243, '(stage) C3': 2, 'propionylcarnitine': 6}
+
+Abbreviation: AVR
+Standard deviation of senses: 141.4907030430588
+Number of expansions: 7
+Expansions: {'aortic valve replacement': 381, 'augmented voltage right arm': 103, 'aortic valve resistance': 4, 'UNSURED SENSE': 2, 'aortic valve regurgitation': 5, 'rapid ventricular response:RVR': 4, 'auditory brainstem response:ABR': 1}
+
+Abbreviation: FSH
+Standard deviation of senses: 141.89550145558997
+Number of expansions: 3
+Expansions: {'Fairview Southdale Hospital': 231, 'follicle-stimulating hormone': 265, 'fascioscapulohumeral muscular dystrophy': 4}
+
+Abbreviation: CDI
+Standard deviation of senses: 142.63940549511554
+Number of expansions: 4
+Expansions: {'center for diagnostic imaging': 225, 'UNSURED SENSE': 2, 'clean, dry, intact': 3, "Children's Depression Inventory": 270}
+
+Abbreviation: IVF
+Standard deviation of senses: 150.2420269653823
+Number of expansions: 4
+Expansions: {'intravenous fluid': 188, 'in vitro fertilization': 308, 'UNSURED SENSE': 3, 'inferior vena cava:IVC': 1}
+
+Abbreviation: IB
+Standard deviation of senses: 156.19307852071353
+Number of expansions: 9
+Expansions: {'(stage) IB': 472, 'interferon beta': 1, 'UNSURED SENSE': 1, '(cycle) IB': 2, '(grade) IB': 8, '(status) IB': 8, '(type) IB': 2, 'intravenous:IV': 1, 'international baccalaureate': 5}
+
+Abbreviation: RA
+Standard deviation of senses: 166.50675661966395
+Number of expansions: 5
+Expansions: {'room air': 36, 'right atrium': 394, 'rheumatoid arthritis': 66, 'UNSURED SENSE': 3, 'retinoic acid': 1}
+
+Abbreviation: LA
+Standard deviation of senses: 168.7100076067412
+Number of expansions: 6
+Expansions: {'UNSURED SENSE': 1, 'long-acting': 426, 'Los Angeles': 40, 'left atrial': 30, 'Louisiana': 2, 'antinuclear antibody:ANA': 1}
+
+Abbreviation: VAD
+Standard deviation of senses: 169.23652088128023
+Number of expansions: 5
+Expansions: {'vincristine adriamycin and dexamethasone': 396, 'ventricular assist device': 87, 'vascular access device': 13, 'UNSURED SENSE': 3, 'video-assisted thoracic surgery:VATS': 1}
+
+Abbreviation: CTA
+Standard deviation of senses: 170.8961673063501
+Number of expansions: 5
+Expansions: {'computed tomographic angiography': 100, 'clear to auscultation': 396, 'UNSURED SENSE': 2, 'cerebellopontine angle:CPA': 1, 'creatine phosphokinase:CPK': 1}
+
+Abbreviation: IR
+Standard deviation of senses: 170.0338201652836
+Number of expansions: 5
+Expansions: {'interventional radiology': 394, 'immediate-release': 102, 'UNSURED SENSE': 1, 'internal rotation': 2, 'infrared': 1}
+
+Abbreviation: NP
+Standard deviation of senses: 174.93846537187488
+Number of expansions: 6
+Expansions: {'nasopharyngeal': 53, 'nurse practitioner': 438, 'UNSURED SENSE': 5, 'natriuretic peptide': 1, 'nasopharynx': 2, '(drug) NP': 1}
+
+Abbreviation: AV
+Standard deviation of senses: 174.0689518552921
+Number of expansions: 4
+Expansions: {'atrioventricular': 374, 'arteriovenous': 116, 'aortic valve': 8, 'UNSURED SENSE': 2}
+
+Abbreviation: EC
+Standard deviation of senses: 175.0481838428113
+Number of expansions: 6
+Expansions: {'enteric-coated': 439, 'UNSURED SENSE': 11, 'enterocutaneous': 45, 'epirubicin': 2, 'extensor carpi': 2, 'MISTAKE:EZ PAP': 1}
+
+Abbreviation: ALD
+Standard deviation of senses: 175.64452738414596
+Number of expansions: 5
+Expansions: {'ad lib on demand': 407, 'adrenoleukodystrophy': 88, 'alanine aminotransferase:ALT': 3, 'left anterior descending:LAD': 1, 'acetyl lysergic acid diethylamide': 1}
+
+Abbreviation: GT
+Standard deviation of senses: 178.00861402377882
+Number of expansions: 6
+Expansions: {'gastrostomy tube': 446, 'glutamyl transpeptidase': 30, 'gutta': 16, 'gamma-glutamyltransferase:GGT': 5, 'glucose tolerance': 2, 'guttae:GGT': 1}
+
+Abbreviation: NAD
+Standard deviation of senses: 179.60512242138307
+Number of expansions: 2
+Expansions: {'nothing abnormal detected': 123, 'no acute distress': 377}
+
+Abbreviation: CR
+Standard deviation of senses: 181.43061116213732
+Number of expansions: 6
+Expansions: {'controlled release': 453, 'cardiorespiratory': 28, 'complete remission': 16, 'C-reactive': 1, 'creatinine': 1, 'closed reduction': 1}
+
+Abbreviation: PDA
+Standard deviation of senses: 181.70397170489514
+Number of expansions: 3
+Expansions: {'patent ductus arteriosus': 138, 'posterior descending artery': 361, 'patient-controlled analgesia:PCA': 1}
+
+Abbreviation: CA
+Standard deviation of senses: 183.86045433063268
+Number of expansions: 4
+Expansions: {'cancer': 391, 'carbohydrate antigen': 105, 'California': 2, 'UNSURED SENSE': 2}
+
+Abbreviation: C&S
+Standard deviation of senses: 187.63395215152295
+Number of expansions: 5
+Expansions: {'culture and sensitivity': 47, 'conjunctivae and sclerae': 434, 'carcinosarcoma:CaS': 1, 'protein C and protein S': 16, 'central nervous system:CNS': 2}
+
+Abbreviation: ES
+Standard deviation of senses: 189.00017636676074
+Number of expansions: 6
+Expansions: {'(drug) ES': 1, 'extra strength': 469, 'ejection fraction:EF': 8, 'UNSURED SENSE': 7, 'enhanced sensitivity': 14, 'erythrocyte sedimentation rate:ESR': 1}
+
+Abbreviation: US
+Standard deviation of senses: 189.69273400247394
+Number of expansions: 4
+Expansions: {'United States': 402, 'UNSURED SENSE': 1, 'ultrasound': 94, 'GENERAL ENGLISH': 3}
+
+Abbreviation: CEA
+Standard deviation of senses: 193.61559854515855
+Number of expansions: 5
+Expansions: {'carcinoembryonic antigen': 444, 'carotid endarterectomy': 53, 'cerebrovascular accident:CVA': 1, 'cancer:CA': 1, 'UNSURED SENSE': 1}
+
+Abbreviation: PE
+Standard deviation of senses: 193.12344929258762
+Number of expansions: 4
+Expansions: {'pulmonary embolus': 408, 'pressure equalization': 89, 'pleural effusion': 1, 'UNSURED SENSE': 2}
+
+Abbreviation: PT
+Standard deviation of senses: 198.71587757398754
+Number of expansions: 5
+Expansions: {'physical therapy': 455, 'prothrombin time': 22, 'prothrombin': 1, 'posterior tibial': 21, 'UNSURED SENSE': 1}
+
+Abbreviation: PM
+Standard deviation of senses: 201.58538306798602
+Number of expansions: 4
+Expansions: {'afternoon': 423, 'physical medicine and rehabilitation:PMR': 74, 'metacarpophalangeal:MP': 1, 'UNSURED SENSE': 2}
+
+Abbreviation: NA
+Standard deviation of senses: 209.14946808443
+Number of expansions: 5
+Expansions: {'Narcotics Anonymous': 474, 'sodium': 14, 'deoxyribonucleic acid:DNA': 1, 'not applicable': 10, 'nurse anesthetist': 1}
+
+Abbreviation: MOM
+Standard deviation of senses: 210.93442898999047
+Number of expansions: 4
+Expansions: {'milk of magnesia': 57, 'Mall of America:MOA': 1, 'GENERAL ENGLISH': 3, 'multiples of median': 439}
+
+Abbreviation: ASA
+Standard deviation of senses: 210.40516470213686
+Number of expansions: 3
+Expansions: {'acetylsalicylic acid': 404, 'American Society of Anesthesiologists': 93, 'aminosalicylic acid': 3}
+
+Abbreviation: BMP
+Standard deviation of senses: 221.19523804398082
+Number of expansions: 4
+Expansions: {'beta-natriuretic peptide:BNP': 36, 'basic metabolic profile': 456, 'bone morphogenetic protein': 7, 'bone marrow transplant:BMT': 1}
+
+Abbreviation: BM
+Standard deviation of senses: 222.86468241214592
+Number of expansions: 4
+Expansions: {'bowel movement': 459, 'breast milk': 25, 'bone marrow': 14, 'UNSURED SENSE': 2}
+
+Abbreviation: T4
+Standard deviation of senses: 222.8773952946627
+Number of expansions: 3
+Expansions: {'thoracic (level) 4': 41, 'thyroxine': 424, 'tumor stage 4': 35}
+
+Abbreviation: OR
+Standard deviation of senses: 227.80254607883558
+Number of expansions: 4
+Expansions: {'operating room': 466, 'GENERAL ENGLISH': 32, '(drug) OR': 1, 'UNSURED SENSE': 1}
+
+Abbreviation: CVP
+Standard deviation of senses: 235.17085987284509
+Number of expansions: 3
+Expansions: {'cyclophosphamide, vincristine, prednisone': 62, 'central venous pressure': 436, 'cardiovascular pulmonary': 2}
+
+Abbreviation: SBP
+Standard deviation of senses: 236.17366491630688
+Number of expansions: 2
+Expansions: {'systolic blood pressure': 83, 'spontaneous bacterial peritonitis': 417}
+
+Abbreviation: SS
+Standard deviation of senses: 237.33169475089784
+Number of expansions: 3
+Expansions: {'single strength': 439, 'UNSURED SENSE': 57, 'sickle cell genotype SS': 4}
+
+Abbreviation: MSSA
+Standard deviation of senses: 237.58787847867995
+Number of expansions: 2
+Expansions: {'modified selective severity assessment': 418, 'methicillin-susceptible Staphylococcus aureus': 82}
+
+Abbreviation: AMA
+Standard deviation of senses: 240.19644737866824
+Number of expansions: 3
+Expansions: {'against medical advice': 444, 'antimitochondrial antibody': 25, 'advanced maternal age': 31}
+
+Abbreviation: ER
+Standard deviation of senses: 243.77311856177528
+Number of expansions: 3
+Expansions: {'extended release': 34, 'emergency room': 448, 'estrogen receptor': 18}
+
+Abbreviation: CVS
+Standard deviation of senses: 252.19106513382536
+Number of expansions: 3
+Expansions: {'cardiovascular system': 41, 'chorionic villus sampling': 457, 'customer, value, service': 2}
+
+Abbreviation: IM
+Standard deviation of senses: 255.5706034217029
+Number of expansions: 3
+Expansions: {'intramuscular': 461, 'intramedullary': 38, 'UNSURED SENSE': 1}
+
+Abbreviation: DIP
+Standard deviation of senses: 256.3305158059285
+Number of expansions: 3
+Expansions: {'distal interphalangeal': 462, 'desquamative interstitial pneumonia': 36, 'dipropionate': 2}
+
+Abbreviation: FISH
+Standard deviation of senses: 281.4284989122459
+Number of expansions: 2
+Expansions: {'fluorescent in situ hybridization': 449, 'GENERAL ENGLISH': 51}
+
+Abbreviation: BAL
+Standard deviation of senses: 292.74220741123065
+Number of expansions: 2
+Expansions: {'blood alcohol level': 43, 'bronchoalveolar lavage': 457}
+
+Abbreviation: OTC
+Standard deviation of senses: 309.7127701597078
+Number of expansions: 2
+Expansions: {'over the counter': 469, 'ornithine transcarbamoylase': 31}
+
