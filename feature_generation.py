@@ -106,12 +106,18 @@ if __name__ == '__main__':
     #* TESTING
     #! OPTIONS HERE
     abbr = "CVA"
-    n = 5
-    OPTION = 2
+    for n in range(2, 6):
+        for OPTION in range(3):
+            sample = get_n_gram(abbr, n)
+            feature_df = generate_feature(abbr, sample, OPTION)
+            label = feature_df["sense"]
+            label.to_csv("./features/label_%s_%s.csv"%(n, OPTION), index=False)
+            feature_df.drop("sense", axis=1, inplace=True)
+            feature_df.to_csv("./features/feature_%s_%s.csv"%(n, OPTION), index=False)
 
-    sample = get_n_gram(abbr, n)
-    feature_df = generate_feature(abbr, sample, OPTION)
-    label = feature_df["sense"]
-    label.to_csv("./features/label_option_%s.csv"%OPTION, index=False)
-    feature_df.drop("sense", axis=1, inplace=True)
-    feature_df.to_csv("./features/feature_option_%s.csv"%OPTION, index=False)
+    # sample = get_n_gram(abbr, n)
+    # feature_df = generate_feature(abbr, sample, OPTION)
+    # label = feature_df["sense"]
+    # label.to_csv("./features/label_option_%s.csv"%OPTION, index=False)
+    # feature_df.drop("sense", axis=1, inplace=True)
+    # feature_df.to_csv("./features/feature_option_%s.csv"%OPTION, index=False)

@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{geometry}
+\linespread{2}
+\usepackage{amsmath}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=[RGB]{51,51,153},
+    urlcolor=black
+}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{xparse}
+
+\NewDocumentCommand{\codeword}{v}{%
+\texttt{\textcolor{blue}{#1}}%
+}
+
+
+
+\author{Xiaohan Li}
+\title{\huge{A Machine Learning Approach to Abbreviation Word Sense Disambiguation}\\
+\LARGE{Homework 4 Report}}
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    }
+
+\begin{document}
+    \newgeometry{top=7cm, bottom = 3cm}
+    \begin{titlepage}
+        \maketitle    
+    \end{titlepage}
+    \newgeometry{margin=3cm}
+    \tableofcontents
+    \section{Literature Review}
+    \section{Data Exploration and Preprocessing}
+    \subsection{Data Exploration}
+    Original data contains 75 different abbreviations, and each abbreviation comes with 500 samples with pre-annotations.\\
+    In order to pick an abbreviation that could yield the most meaningful result, the following steps were taken:
+    \begin{enumerate}
+        \item Get number of senses for each abbreviation.\\
+              One abbreviation with only 1 sense is dropped.
+        \item Get standard deviation of the occurrence of each sense.
+        \item The results are ranked by standard deviation from low to high, and then by number of senses from high to low.
+    \end{enumerate}
+    The final abbreviation chosen is \codeword{"CVA"}, which has 2 senses and the standard deviation of the occurrence of each sense is 39.6, resulting in a relatively even distribution of the senses.
+    \subsection{Data Preprocessing}
+    After careful investigation of the data. The following preprocessing steps were taken:
+
+\end{document}
