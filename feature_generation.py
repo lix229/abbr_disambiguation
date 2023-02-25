@@ -111,6 +111,7 @@ if __name__ == '__main__':
             sample = get_n_gram(abbr, n)
             feature_df = generate_feature(abbr, sample, OPTION)
             label = feature_df["sense"]
+            print(label.head())
             label.to_csv("./features/label_%s_%s.csv"%(n, OPTION), index=False)
             feature_df.drop("sense", axis=1, inplace=True)
             feature_df.to_csv("./features/feature_%s_%s.csv"%(n, OPTION), index=False)

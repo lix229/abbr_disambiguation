@@ -208,6 +208,13 @@ def multi_experiment(model_list, X_train, y_train, X_test, y_test):
         print("Classification Report")
         print(classification_report(y_test, predictions))
         print('--' * 20)
+
+        df = pd.DataFrame()
+        df["actual"] = y_test
+        df["predicted"] = predictions
+        print(df)
+
+
         # fig =plot_feature_importance(trained).get_figure()
         # figname = name + '_auc.png'
         # fig.savefig('reports/figures/' + figname)
@@ -222,8 +229,8 @@ if __name__ == '__main__':
     
     state = 12
     test_size = 0.2
-    feature = pd.read_csv("./features/feature_%s_%s.csv" % (4, 1))
-    label = pd.read_csv("./features/label_%s_%s.csv" % (4, 1))
+    feature = pd.read_csv("./features/feature_%s_%s.csv" % (3, 0))
+    label = pd.read_csv("./features/label_%s_%s.csv" % (3, 0))
 
     X_train, X_test, y_train, y_test = train_test_split(feature, label, test_size=test_size, random_state=state)
 
@@ -232,3 +239,13 @@ if __name__ == '__main__':
     multi_experiment(model_list, X_train, y_train, X_test, y_test)
     # feature_set_selection("CVA", random_forest)
 
+    # n_gram = preprocessing.get_n_gram("CVA", 5)
+    # print(len(n_gram['costovertebral angle']))
+    all_sentences = []
+    # combine values in the dictionary into a list
+    # for key in n_gram:
+    #     all_sentences.extend(n_gram[key])
+    
+    # print(len(all_sentences))
+    # print(all_sentences[248])
+        
