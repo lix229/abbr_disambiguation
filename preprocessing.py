@@ -67,6 +67,7 @@ def get_n_gram(abbr, n = 2):
 
 if __name__ == '__main__':
     #? TESTING
-    sample = get_n_gram("CVA", 5)
-    print(sample)
-    # print(re.match("_%#[0-9]{4}#%_|_%#DDMM[0-9]{4}#%_|_%#MMDD#%_|_%#MM#%_|_%#DD#%_", "_%#MMDD#%_"))
+    CVA_lines = fetch_lines('CVA')
+    with open('./data/CVA.txt', 'w') as f:
+        for line in CVA_lines:
+            f.write(line + '\n')

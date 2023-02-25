@@ -4,6 +4,7 @@
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \usepackage{geometry}
 \linespread{2}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{amsmath}
 \hypersetup{
     colorlinks,
@@ -19,7 +20,7 @@
 \usepackage{xparse}
 
 \NewDocumentCommand{\codeword}{v}{%
-\texttt{\textcolor{blue}{#1}}%
+\texttt{\textcolor{RedViolet}{#1}}%
 }
 
 
@@ -60,6 +61,7 @@
         \item sentences that do not contain the abbreviation are removed.
         \item If a text block contains 2 or more sentences that contain the abbreviation, the text block is split into corresponding number of text blocks, each containing only 1 sentence that contains the abbreviation.
         \item De-identified date and time in different formats are unifed into \codeword{'_%#DATE#%_'}, similarly for \codeword{'_%#ZIP#%_'}.
+        \item After manual inspection, all 4 digits numbers in the data set are indeed year numbers, and are unifed into \codeword{'_%#DATE#%_'}.
     \end{enumerate}
     A total number 518 samples are generated after the preprocessing steps.
     \section{Methods}
@@ -74,11 +76,83 @@
     The final feature generated is all words combined with their respective frequencies as values. The labels are senses mapped into integers.
     \subsection{Feature Set Selection}
     The generated features are fed into a random forest classifier with hyperparameter tuning by grid search to find the best combination of features.
-    The results are ranked by the F1 score of the classifier. The best performing set of featrues a 3-gram with basic word features, with:
+    The results are ranked by the F1 score of the classifier. 
+    \subsubsection{Feature Set Exploration}
+    The following graphs shows the impact of the window size given the feature type:\\
+    \includegraphics[width=13.4cm]{./by_feature.png}\\
+    The following graphs shows the impact of the feature type given the window size:\\
+    \includegraphics[width=13.4cm]{./by_window_size.png}\\
+    \subsubsection{Best Performing Feature Set}
+    The best performing set of featrues a 3-gram with basic word features, with:
     \begin{itemize}
         \item Accuracy: 99.22 (0.94\%)
         \item F1 score: 0.98
         \item ROC AUC Score:  0.97
     \end{itemize}
     \subsection{Model Selection}
+    Using the best performing feature set established in the previous section, the following models are explored and compared with 5 fold stratified cross validation and grid search hyperparameter tuning (20\% out of bag data as test set):\\\\
+    \begin{tabular}{|M{4cm}||M{4cm}|M{2cm}|M{2cm}|}
+        \hline
+        \textbf{Classifier} & \textbf{Accuracy \& STD} & \textbf{F1 Score} & \textbf{ROC AUC}\\
+        \hline
+        Random Forest & 99.22\% (0.88\%) & 0.98 & 0.97  \\
+        \hline
+        Gradient Boosting & 99.21\% (0.94\%) & 0.98 & 0.97  \\
+        \hline
+        Ada Boost & 97.07\% (1.99\%) & 0.98 & 0.97  \\
+        \hline
+        Gaussian Naive Bayes & 88.89\% (3.00\%) & 0.93 & 0.92  \\
+        \hline
+    \end{tabular}\\\\
+    As the table suggested, random forest classifier is the best performing model with a slight edge over gradient boosting classifier.\\
+    \section{Error Analysis}
+    \subsection{Classification Statistics}
+    Classification Report:\\\\
+    \begin{tabular}{|M{3cm}||M{2.5cm}|M{2.5cm}|M{2.5cm}|M{2.5cm}|}
+        \hline
+            &  precision  &  recall  &f1-score  & support\\
+        \hline
+           0    &   0.97    &  0.95   &   0.96    &    37\\
+        \hline
+           1    &   0.97    &  0.99  &    0.98     &   67\\
+        \hline
+        accuracy     &        &       & 0.97   &    104\\
+        \hline
+        macro avg   &    0.97   &   0.97   &   0.97  &     104\\
+        \hline
+        weighted avg    &   0.97    &  0.97   &   0.97  &     104   \\
+        \hline
+    \end{tabular}\\\\
+    The confusion matrix:\\\\
+    \begin{tabular}{|M{3cm}|M{3cm}|M{3cm}|}
+        \hline
+        & Actual 0 & Actual 1\\
+        \hline
+        Predicted 0 & 35 & 2\\
+        \hline
+        Predicted 1 & 1 & 66\\
+        \hline
+    \end{tabular}\\\\
+    Since the data set is somewhat imbalanced, the performance when predicting the minority class is expected to be lower than the majority class.\\
+    The following table shows the data ID, actual and predicted labels of the 3 misclassified samples and the original n-gram:\\\\
+    \begin{tabular}{|M{2cm}|M{2cm}|M{2cm}|M{6cm}|}
+        \hline
+        Data ID & Actual & Predicted & Original 3-gram\\
+        \hline
+        249 & 1 & 0 & ['No', 'CVA', 'tenderness']\\
+        \hline
+        42 & 0 & 1&['the', 'left', 'CVA', 'costal', 'margin']\\
+        \hline
+        69 & 0 & 1 & ['Spine', 'and', 'CVA', 'did', 'not']\\
+        \hline
+    \end{tabular}\\
+    \subsection{Error Analysis}
+    \begin{itemize}
+        \item ID\_249: The sentence containing the abbreviation is only 3 word long including the abbreviation itself, and the sentence appears evenly distributed across different senses. Thus the model is unable to make a good Classification.
+        \item ID\_42: After examining the data and doing some preliminary research, we found that the phrase \codeword{'CVA costal margin'} is not a commonly used combination of words since the \textit{CVA} is formed by the 12th rib and the spine while the \textit{costal margin} is an arch formed by the medical margin of the seventh rib to the tenth rib. Thus the text does not match the usual pattern of the abbreviation well enough to be classified correctly.
+        \item ID\_69: The sentence containing the abbreviation is in a negative context, while 3 out of 4 words in the 3-gram are \codeword{'and'}, \codeword{'did'} and \codeword{'not'}. which are common words that are not specific to any sense. Thus the model is unable to make a good classification.
+    \end{itemize}
+    \section{Results and Discussions}
+    
+
 \end{document}

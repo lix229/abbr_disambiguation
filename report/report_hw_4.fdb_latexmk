@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1677096008 "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" "report_hw_4.pdf" "report_hw_4" 1677096009
-  "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" 1677096008 4458 8afa0716595df19281969ea93d5f18cc ""
+["pdflatex"] 1677369155 "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" "report_hw_4.pdf" "report_hw_4" 1677369155
+  "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" 1677369154 8616 b212795d9c379dfd8821b1f9ba59ada8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -64,6 +64,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def" 1601931164 19103 48d29b6e2a64cb717117ef65f107b404 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty" 1639603921 7197 eb6c1ebf41667a05cb50c23c19d5e8bc ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def" 1622581934 4995 8040f614c8de8318a0b5b2dea8a3fcef ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty" 1622581934 18399 7e40f80366dffb22c0e7b70517db5cb4 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty" 1636758526 7996 a8fb260d598dcaf305a7ae7b9c3e3229 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
@@ -92,10 +93,12 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1676575671 2826444 7936239d6609d43ecdf9a4828c69600a ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "report_hw_4.aux" 1677096009 1658 8c7b8f7f0a3523167aec714beaaa4508 "pdflatex"
-  "report_hw_4.out" 1677096009 1174 f8377a851f8c5249db794414003c1815 "pdflatex"
-  "report_hw_4.tex" 1677096008 4458 8afa0716595df19281969ea93d5f18cc ""
-  "report_hw_4.toc" 1677096009 644 659b16ea1f53f08781bbaee28d58ed39 "pdflatex"
+  "by_feature.png" 1677360203 79786 06cf50285365e26abb10df9ef0dbc680 ""
+  "by_window_size.png" 1677360383 95610 997edcafe3b44d25ac237a59d1b1eeaa ""
+  "report_hw_4.aux" 1677369155 2426 05f64710ea34ff70725d605095efa527 "pdflatex"
+  "report_hw_4.out" 1677369155 2173 94abb8b3208ef382d242be23340c0681 "pdflatex"
+  "report_hw_4.tex" 1677369154 8616 b212795d9c379dfd8821b1f9ba59ada8 ""
+  "report_hw_4.toc" 1677369155 1166 377ff74cd080eb7db489b5215d5a4c22 "pdflatex"
   (generated)
   "report_hw_4.aux"
   "report_hw_4.log"

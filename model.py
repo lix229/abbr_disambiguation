@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix, f1_score, matthews_corrcoef, precision_score, recall_score, roc_auc_score
 from sklearn.model_selection import GridSearchCV, StratifiedKFold, cross_val_score, train_test_split
-from sklearn.ensemble import GradientBoostingClassifier, AdaBoostClassifier, RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier, AdaBoostClassifier, RandomForestClassifier, VotingClassifier
 import warnings
 from sklearn.naive_bayes import GaussianNB
 import feature_generation, preprocessing
@@ -119,7 +119,6 @@ def ada_boost(X_train, y_train):
     params = {
         'n_estimators' : [50, 100, 150, 200],
         'learning_rate' :  [0.01, 0.05, 0.1, 0.5, 1],
-        'max_features' : [5, 10, 20, 30, 40, 50, 100, len(X_train.columns)],
     }
     grid = GridSearchCV(estimator=ada_clf,
                     param_grid=params,
@@ -135,6 +134,29 @@ def ada_boost(X_train, y_train):
     print('--' * 20)
     print("Accuracy: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
     return grid
+
+def voting_classifier(X_train, y_train):
+    """
+    voting classifier
+    Using GridSearchCV to find the best parameters for the classifier
+
+    :param X_train: training data
+    :param y_train: training labels
+
+    :return : clf (classifier) - trained gridsearchcv classifier
+    """
+    y_train  = y_train.squeeze()
+    clf1 = GradientBoostingClassifier(random_state=0)
+    clf2 = RandomForestClassifier(random_state=0)
+    clf3 = AdaBoostClassifier(random_state=0)
+    eclf = VotingClassifier(estimators=[('gb', clf1), ('rf', clf2), ('ada', clf3)], voting='soft')
+    eclf.fit(X_train, y_train)
+
+    kfold = StratifiedKFold(n_splits=5)
+    results = cross_val_score(eclf, X_train, y_train, cv=kfold)
+    print('--' * 20)
+    print("Accuracy: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+    return eclf
 
 def feature_set_selection(abbr, clf):
     """
@@ -209,10 +231,10 @@ def multi_experiment(model_list, X_train, y_train, X_test, y_test):
         print(classification_report(y_test, predictions))
         print('--' * 20)
 
-        df = pd.DataFrame()
-        df["actual"] = y_test
-        df["predicted"] = predictions
-        print(df)
+        # df = pd.DataFrame()
+        # df["actual"] = y_test
+        # df["predicted"] = predictions
+        # print(df)
 
 
         # fig =plot_feature_importance(trained).get_figure()
@@ -226,26 +248,33 @@ def multi_experiment(model_list, X_train, y_train, X_test, y_test):
 
 
 if __name__ == '__main__':
+
+    OPTIONS = {
+        'abbr': 'CVA',
+        'window_size': 3,
+        'feature_type': 0,
+    }
     
     state = 12
     test_size = 0.2
-    feature = pd.read_csv("./features/feature_%s_%s.csv" % (3, 0))
-    label = pd.read_csv("./features/label_%s_%s.csv" % (3, 0))
+    feature = pd.read_csv("./features/feature_%s_%s.csv" % (OPTIONS['window_size'], OPTIONS['feature_type']))
+    label = pd.read_csv("./features/label_%s_%s.csv" % (OPTIONS['window_size'], OPTIONS['feature_type']))
 
     X_train, X_test, y_train, y_test = train_test_split(feature, label, test_size=test_size, random_state=state)
 
-    # model_list = [ada_boost, gaussian_naive_bayes, random_forest, gradient_boosting]
-    model_list = [random_forest]
-    multi_experiment(model_list, X_train, y_train, X_test, y_test)
+    # model_list = [random_forest, gradient_boosting, ada_boost, gaussian_naive_bayes]
+    # multi_experiment(model_list, X_train, y_train, X_test, y_test)
     # feature_set_selection("CVA", random_forest)
 
-    # n_gram = preprocessing.get_n_gram("CVA", 5)
-    # print(len(n_gram['costovertebral angle']))
+    n_gram = preprocessing.get_n_gram("CVA", 5)
+    print(len(n_gram['costovertebral angle']))
     all_sentences = []
     # combine values in the dictionary into a list
-    # for key in n_gram:
-    #     all_sentences.extend(n_gram[key])
+    for key in n_gram:
+        all_sentences.extend(n_gram[key])
     
     # print(len(all_sentences))
-    # print(all_sentences[248])
+    print(all_sentences[249])
+    print(all_sentences[42])
+    print(all_sentences[69])
         
