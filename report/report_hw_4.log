@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.16)  25 FEB 2023 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.16)  25 FEB 2023 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,13 +765,13 @@ Package logreq Info: Writing requests to 'report_hw_4.run.xml'.
 Here is how much of TeX's memory you used:
  18806 strings out of 478268
  323233 string characters out of 5846347
- 1048270 words of memory out of 5000000
+ 1048312 words of memory out of 5000000
  36777 multiletter control sequences out of 15000+600000
  475790 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,1387b,1213s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report_hw_4.pdf (11 pages, 248936 bytes).
+Output written on report_hw_4.pdf (11 pages, 250803 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
