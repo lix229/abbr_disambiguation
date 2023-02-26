@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.16)  25 FEB 2023 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.16)  25 FEB 2023 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,72 +686,72 @@ Package biblatex Info: Reference segment=0 on input line 40.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52     M
-          ore recently, Joopudi et al. (2018) proposed a convolutional neura... [1
+l.47     \newpage
+                  [1
 
 ] [2] [3]
-<./by_feature.png, id=112, 428.60126pt x 351.3125pt>
+<./by_feature.png, id=109, 428.60126pt x 351.3125pt>
 File: ./by_feature.png Graphic file (type png)
 <use ./by_feature.png>
-Package pdftex.def Info: ./by_feature.png  used on input line 97.
-(pdftex.def)             Requested size: 381.26675pt x 312.51703pt.
-<./by_window_size.png, id=114, 491.8375pt x 371.3875pt>
+Package pdftex.def Info: ./by_feature.png  used on input line 98.
+(pdftex.def)             Requested size: 341.43306pt x 279.86568pt.
+<./by_window_size.png, id=111, 491.8375pt x 371.3875pt>
 File: ./by_window_size.png Graphic file (type png)
 <use ./by_window_size.png>
-Package pdftex.def Info: ./by_window_size.png  used on input line 99.
-(pdftex.def)             Requested size: 381.26675pt x 287.90733pt.
+Package pdftex.def Info: ./by_window_size.png  used on input line 100.
+(pdftex.def)             Requested size: 341.43306pt x 257.82738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--100
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
 
  []
 
 [4] [5 <./by_feature.png> <./by_window_size.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--123
+Underfull \hbox (badness 10000) in paragraph at lines 109--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--123
+Underfull \hbox (badness 10000) in paragraph at lines 109--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--123
+Underfull \hbox (badness 10000) in paragraph at lines 109--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
 
-Overfull \hbox (7.8944pt too wide) in paragraph at lines 125--164
+Overfull \hbox (7.8944pt too wide) in paragraph at lines 126--165
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--164
+Underfull \hbox (badness 10000) in paragraph at lines 126--165
 
  []
 
@@ -771,7 +771,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,1387b,1213s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report_hw_4.pdf (11 pages, 250803 bytes).
+Output written on report_hw_4.pdf (11 pages, 250677 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams

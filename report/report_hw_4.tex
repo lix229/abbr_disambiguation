@@ -44,6 +44,7 @@ sorting=none,
     \end{titlepage}
     \newgeometry{margin=3cm}
     \tableofcontents
+    \newpage
     \section{Literature Review}
     Clinical text often contains a large number of abbreviations, which have different meanings and can be ambiguous. This ambiguity can lead to errors and misinterpretations, which can have serious consequences in clinical settings. In order to eliminate ambiguity and extract information from clinical narratives, several approaches have been proposed for clinical abbreviation disambiguation.
 
@@ -94,9 +95,9 @@ sorting=none,
     \subsubsection{Feature Set Exploration}
     Random forest classifer is used to explore the impact of the feature set on the performance of the classifier.\\
     The following graphs shows the impact of the window size given the feature type:\\
-    \includegraphics[width=13.4cm]{./by_feature.png}\\
+    \includegraphics[width=12cm]{./by_feature.png}\\
     The following graphs shows the impact of the feature type given the window size:\\
-    \includegraphics[width=13.4cm]{./by_window_size.png}\\
+    \includegraphics[width=12cm]{./by_window_size.png}\\
     \subsubsection{Best Performing Feature Set}
     The best performing set of featrues a 3-gram with basic word features, with:
     \begin{itemize}

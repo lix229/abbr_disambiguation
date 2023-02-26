@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber report_hw_4"] 1677381855 "report_hw_4.bcf" "report_hw_4.bbl" "report_hw_4" 1677382034
+["biber report_hw_4"] 1677381855 "report_hw_4.bcf" "report_hw_4.bbl" "report_hw_4" 1677382325
   "refs.bib" 1677381854 1005 c25356052b92050cc258f2bed519b356 ""
-  "report_hw_4.bcf" 1677382034 106470 d11dadfaae32a7c2299df90c2f1aeb51 "pdflatex"
+  "report_hw_4.bcf" 1677382325 106470 d11dadfaae32a7c2299df90c2f1aeb51 "pdflatex"
   (generated)
   "report_hw_4.bbl"
   "report_hw_4.blg"
-["pdflatex"] 1677382033 "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" "report_hw_4.pdf" "report_hw_4" 1677382034
-  "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" 1677382033 14826 6d01decfd92264f296e87eb1f6f52dfb ""
+["pdflatex"] 1677382324 "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" "report_hw_4.pdf" "report_hw_4" 1677382325
+  "/Users/shawnli/gdrive/master/Introductory_NLP/homework/hw_4/report/report_hw_4.tex" 1677382323 14835 9962f4e528ca085c5c1f8d06224eb4e3 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -116,12 +116,12 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "by_feature.png" 1677360203 79786 06cf50285365e26abb10df9ef0dbc680 ""
   "by_window_size.png" 1677360383 95610 997edcafe3b44d25ac237a59d1b1eeaa ""
-  "report_hw_4.aux" 1677382034 3053 d9e213d7cd9435700d3c5575088d6277 "pdflatex"
+  "report_hw_4.aux" 1677382325 3053 2b61f38d7f7c756abbe8fcd2868802b2 "pdflatex"
   "report_hw_4.bbl" 1677381856 5023 a39ae5274eb3d3c5ca0b57a77d8e4c6b "biber report_hw_4"
-  "report_hw_4.out" 1677382034 2173 94abb8b3208ef382d242be23340c0681 "pdflatex"
-  "report_hw_4.run.xml" 1677382034 2389 a003ff8791dc77f793d289e4cd2fbd05 "pdflatex"
-  "report_hw_4.tex" 1677382033 14826 6d01decfd92264f296e87eb1f6f52dfb ""
-  "report_hw_4.toc" 1677382034 1166 95bb8e5248cabb7a00508011fde6c3b4 "pdflatex"
+  "report_hw_4.out" 1677382325 2173 94abb8b3208ef382d242be23340c0681 "pdflatex"
+  "report_hw_4.run.xml" 1677382325 2389 a003ff8791dc77f793d289e4cd2fbd05 "pdflatex"
+  "report_hw_4.tex" 1677382323 14835 9962f4e528ca085c5c1f8d06224eb4e3 ""
+  "report_hw_4.toc" 1677382325 1166 0684c5937ab1573a06ac395b18994d27 "pdflatex"
   (generated)
   "report_hw_4.aux"
   "report_hw_4.bcf"
