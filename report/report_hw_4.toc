@@ -1,14 +1,14 @@
 \contentsline {section}{\numberline {1}Literature Review}{1}{section.1}%
-\contentsline {section}{\numberline {2}Data Exploration and Preprocessing}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Data Exploration}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Data Preprocessing}{2}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Methods}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Feature Extraction}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Feature Set Selection}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {2}Data Exploration and Preprocessing}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data Exploration}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Data Preprocessing}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Methods}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Feature Extraction}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Feature Set Selection}{4}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Feature Set Exploration}{4}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Best Performing Feature Set}{5}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Model Selection}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Error Analysis}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Classification Statistics}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Error Analysis}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Results and Discussions}{7}{section.5}%
+\contentsline {subsubsection}{\numberline {3.2.2}Best Performing Feature Set}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Model Selection}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Error Analysis}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Classification Statistics}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Error Analysis}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Results and Discussions}{8}{section.5}%

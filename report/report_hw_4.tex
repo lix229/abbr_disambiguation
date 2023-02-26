@@ -18,12 +18,16 @@
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{xparse}
+\usepackage[
+backend=biber,
+style=numeric-verb,
+sorting=none,
+]{biblatex}
+\addbibresource{refs.bib}
 
 \NewDocumentCommand{\codeword}{v}{%
 \texttt{\textcolor{RedViolet}{#1}}%
 }
-
-
 
 \author{Xiaohan Li}
 \title{\huge{A Machine Learning Approach to Abbreviation Word Sense Disambiguation}\\
@@ -41,6 +45,16 @@
     \newgeometry{margin=3cm}
     \tableofcontents
     \section{Literature Review}
+    Clinical text often contains a large number of abbreviations, which have different meanings and can be ambiguous. This ambiguity can lead to errors and misinterpretations, which can have serious consequences in clinical settings. In order to eliminate ambiguity and extract information from clinical narratives, several approaches have been proposed for clinical abbreviation disambiguation.
+
+    Machine learning has a huge potential for improving clinical abbreviation disambiguation. For example, Pakhomov et al. (2005) proposed a method for abbreviation and acronym disambiguation in clinical discourse that combines dictionary lookup and machine learning.\cite{pakhomov2005abbreviation} It describes the use of several machine learning algorithms, including decision trees, naive Bayes, and support vector machines, and evaluates the method on a set of 6,000 clinical notes. The authors report an accuracy of 92.1% in identifying the correct expansion for abbreviations and acronyms.
+
+    More recently, Joopudi et al. (2018) proposed a convolutional neural network (CNN) approach for abbreviation disambiguation in clinical text.\cite{joopudi2018convolutional} The authors trained the model on a large dataset of annotated clinical notes and achieved state-of-the-art performance on two benchmark datasets, demonstrating the potential of deep learning techniques for improving information extraction from clinical text.
+
+    Jaber and Martinez (2022) proposed a one-fits-all classifier to disambiguate clinical abbreviations with deep contextualized representation from pre-trained language models like Bidirectional Encoder Representation from Transformers (BERT).\cite{jaber2022disambiguating} They performed a set of experiments with different pre-trained clinical BERT models to investigate fine-tuning methods for the disambiguation of clinical abbreviations. The proposed method achieved state-of-the-art performance on two benchmark datasets, suggesting that it has the potential for improving clinical text processing tasks.
+
+    Overall, clinical abbreviation disambiguation is an important task in clinical natural language processing. While with the development of deep learning, we have much more advanced models that can apply to this task. further studies are needed to explore how to optimize these methods and improve performance. 
+
     \section{Data Exploration and Preprocessing}
     \subsection{Data Exploration}
     Original data contains 75 different abbreviations, and each abbreviation comes with 500 samples with pre-annotations.\\
@@ -78,6 +92,7 @@
     The generated features are fed into a random forest classifier with hyperparameter tuning by grid search to find the best combination of features.
     The results are ranked by the F1 score of the classifier. 
     \subsubsection{Feature Set Exploration}
+    Random forest classifer is used to explore the impact of the feature set on the performance of the classifier.\\
     The following graphs shows the impact of the window size given the feature type:\\
     \includegraphics[width=13.4cm]{./by_feature.png}\\
     The following graphs shows the impact of the feature type given the window size:\\
@@ -153,6 +168,19 @@
         \item ID\_69: The sentence containing the abbreviation is in a negative context, while 3 out of 4 words in the 3-gram are \codeword{'and'}, \codeword{'did'} and \codeword{'not'}. which are common words that are not specific to any sense. Thus the model is unable to make a good classification.
     \end{itemize}
     \section{Results and Discussions}
-    
+    In this project, almost all classifiers are able to achieve high performances. The best performing model is the random forest classifier with an accuracy of 99.22\% and F1 score of 0.98, thus is able to classify the senses of the abbreviation with high accuracy.\\
+    With all window sizes except for window size 5, the performance of the machine learning algorithms exhibits a similar trend, the most basic feature set with the word only performs the best, followed by the word, direction, and position, while the word with direction features perform the worst. Looking at impact of the window size given feature type, for more complex feature sets (word, direction, with or without position), the performances tend to go down as the window size increases, but goes up significantly when the window size reaches 5, the speculation is that with more complex feature types, more data is needed to capture the patterns of the abbreviation without making the data too sparse. For the basic feature set (word only), the performance is relatively stable across all window sizes, with 3 being the local maximum, this is not expected as the window size is expected to have a positive impact on the performance, the speculation here is that most of the sentences included in the data set are short, thus often times a larger window size option is not available at all, and as the distance between the abbreviation and the context words increases, the context words become less relevant to the abbreviation, so the performance does not improve as the window size increases.\\
+    Some other interesting observations are that even with manual annotations, the data set often contains false, or ambiguous, sometimes even duplicate annotations, making selecting the right, balanced abbreviation to disambiguate a key to achieving high performance in this project. \\
+    However, in a more realistic scenario, the data set is often not as clean as the one used in this project, and the developer wouldn't have the luxury of hand picking the abbreviation to operate on, thus we can take a peak into what could be some of the challenges for \textit{WSD} in the real world:
+    \begin{enumerate}
+        \item As the number of senses increases, the need for size of the data set increases exponentially, when some senses only makes up a small portion of the data set, a traditional machine learning algorithm will likely give up on them completely, which may not be acceptable in the field of medicine sometimes.
+        \item Human annotators are often not perfect, and the data set may contain false, or ambiguous, sometimes even duplicate annotations, making implementing a \textit{WSD} algorithm in the real world a labour intensive task.
+        \item The meaning of a word can sometimes be related (polysemy), this may result in the words surrounding the word being somewhat similar, traditional machine learning algorithms may not be able to distinguish between the senses.
+        \item Defining and understanding the context of a word is often not a trivial task.
+        \item Some words could have different meaning across different domain or language, making it difficult to generalize the \textit{WSD} algorithm.
+    \end{enumerate}
+    In conclusion, although this project is able to achieve high performance in the \textit{WSD} task, the setting of the project is far from the real world thus making it a much easier task to achieve. To better address the challenges in the real world, methodologies beyond the scope of this project needs to be implemented.
 
+    \newpage
+    \printbibliography
 \end{document}

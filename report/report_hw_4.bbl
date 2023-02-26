@@ -1,0 +1,135 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{pakhomov2005abbreviation}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a953c14630b00f7e387ddcb270ecb055}{%
+           family={Pakhomov},
+           familyi={P\bibinitperiod},
+           given={Serguei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=67a5b974557234da8071c47ede9e85c5}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod}}}%
+        {{hash=20d70bef8a7ae9fbd1b93614ea45ec97}{%
+           family={Chute},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {American Medical Informatics Association}%
+      }
+      \strng{namehash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \strng{fullhash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \strng{bibnamehash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \strng{authorbibnamehash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \strng{authornamehash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \strng{authorfullhash}{68c510e1fb18a2af0ecc9f7c9bf6d03c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AMIA annual symposium proceedings}
+      \field{title}{Abbreviation and acronym disambiguation in clinical discourse}
+      \field{volume}{2005}
+      \field{year}{2005}
+      \field{pages}{589}
+      \range{pages}{1}
+    \endentry
+    \entry{joopudi2018convolutional}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dad2412cd80121bc938fc777cfe1242c}{%
+           family={Joopudi},
+           familyi={J\bibinitperiod},
+           given={Venkata},
+           giveni={V\bibinitperiod}}}%
+        {{hash=198545332fdd94b300dd37656ed60191}{%
+           family={Dandala},
+           familyi={D\bibinitperiod},
+           given={Bharath},
+           giveni={B\bibinitperiod}}}%
+        {{hash=242a753981a104ddf7bb25561f9e61f4}{%
+           family={Devarakonda},
+           familyi={D\bibinitperiod},
+           given={Murthy},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dfac26036543eecc459afa640fc87616}
+      \strng{fullhash}{dfac26036543eecc459afa640fc87616}
+      \strng{bibnamehash}{dfac26036543eecc459afa640fc87616}
+      \strng{authorbibnamehash}{dfac26036543eecc459afa640fc87616}
+      \strng{authornamehash}{dfac26036543eecc459afa640fc87616}
+      \strng{authorfullhash}{dfac26036543eecc459afa640fc87616}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of biomedical informatics}
+      \field{title}{A convolutional route to abbreviation disambiguation in clinical text}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{71\bibrangedash 78}
+      \range{pages}{8}
+    \endentry
+    \entry{jaber2022disambiguating}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c8718c7e5de7a9605051a6631da7b4b8}{%
+           family={Jaber},
+           familyi={J\bibinitperiod},
+           given={Areej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e4850ae17d70d0dcd238aba0747c6b9}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Paloma},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Georg Thieme Verlag KG}%
+      }
+      \strng{namehash}{38a9e2fe2d61af0154af179db186019c}
+      \strng{fullhash}{38a9e2fe2d61af0154af179db186019c}
+      \strng{bibnamehash}{38a9e2fe2d61af0154af179db186019c}
+      \strng{authorbibnamehash}{38a9e2fe2d61af0154af179db186019c}
+      \strng{authornamehash}{38a9e2fe2d61af0154af179db186019c}
+      \strng{authorfullhash}{38a9e2fe2d61af0154af179db186019c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods of Information in Medicine}
+      \field{number}{S 01}
+      \field{title}{Disambiguating clinical abbreviations using a one-fits-all classifier based on deep learning techniques}
+      \field{volume}{61}
+      \field{year}{2022}
+      \field{pages}{e28\bibrangedash e34}
+      \range{pages}{-1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
